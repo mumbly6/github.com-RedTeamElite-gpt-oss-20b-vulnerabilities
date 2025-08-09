@@ -1,0 +1,20 @@
+github.com-RedTeamElite-gpt-oss-20b-vulnerabilities
+├── README.md                          # Project overview and instructions
+├── requirements.txt                   # Dependencies
+├── vulnerability_detector.py          # Main detection system
+├── vulnerability_analysis.py          # Analysis code  
+├── demonstration_notebook.py          # Demo examples
+├── json_generator.py                 # Generates sample findings
+├── notebooks/                        # Jupyter notebooks folder
+│   ├── vulnerability_analysis.ipynb
+│   └── demonstration_examples.ipynb
+├── findings/                         # Generated JSON findings
+│   ├── 01_assessment_summary.json
+│   ├── 02_prompt_injection_findings.json
+│   ├── 03_data_extraction_findings.json
+│   ├── 04_jailbreak_findings.json
+│   └── 05_detailed_results.json
+├── docs/                            # Documentation
+│   └── setup_instructions.md
+└── videos/                          # Demo videos or links
+    └── demo_links.md
